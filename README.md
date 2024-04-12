@@ -12,7 +12,7 @@ npm install
 Then, setup your mongoDB configuration in a .env file
 ```
 MONGODB_URI=<connection string>
-make sure to add the cluster name add the end of the string
+make sure to add the cluster name at the end of the string
 ```
 Finally, run the development server:
 ```bash
