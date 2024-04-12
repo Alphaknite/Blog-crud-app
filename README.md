@@ -1,9 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a CRUD api example using nextjs and mongoDB cloud. 
+You can POST, GET, PUT, and DELETE Users.
+Users information {name, email, password}
 
 ## Getting Started
 
-First, run the development server:
+First, install node_modules
+```bash
+npm install
+```
 
+Then, setup your mongoDB configuration in a .env file
+```
+MONGODB_URI=<connection string>
+make sure to add the cluster name add the end of the string
+```
+Finally, run the development server:
 ```bash
 npm run dev
 # or
