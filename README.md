@@ -13,7 +13,10 @@ Then, setup your mongoDB configuration in a .env file
 ```
 MONGODB_URI=<connection string>
 make sure to add the cluster name at the end of the string
+Should look something like this: 
+mongodb+srv://<username>:<password>@<DB name>.swddrug.mongodb.net/<DB name>
 ```
+
 Finally, run the development server:
 ```bash
 npm run dev
