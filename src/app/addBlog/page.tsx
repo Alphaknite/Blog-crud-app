@@ -3,7 +3,7 @@ import { useRouter } from 'next/navigation';
 import React from 'react'
 import { toast } from 'react-hot-toast';
 
-const addBlog = () => {
+const AddBlog = () => {
     const router = useRouter();
     const [title, setTitle] = React.useState("");
     const [body, setBody] = React.useState("");
@@ -62,4 +62,4 @@ const addBlog = () => {
     )
 }
 
-export default addBlog
+export default AddBlog
