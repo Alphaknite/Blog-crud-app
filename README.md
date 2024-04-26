@@ -1,6 +1,6 @@
-This is a CRUD api example using nextjs and mongoDB cloud. 
-You can POST, GET, PUT, and DELETE Users.
-Users information {name, email, password}
+This is a CRUD Blog app using nextjs and mongoDB cloud. 
+You can POST, GET, PUT, and DELETE Blogs.
+Blog {_id, title, body}
 
 ## Getting Started
 
